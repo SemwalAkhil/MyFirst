@@ -14,10 +14,11 @@
     commit -> it is record of change
             git commit -m "message"
 
-    git restore --staged <filename> -> to unstage a staged file
-
     git reset <filename> -> to undo added changes
         git reset HEAD~1 -> to reset last commited change (single)
+    
+    git restore <filename> -> to restore changes on a rest file
+        git restore --staged <filename> -> to unstage a staged file and restore
         
     init ->    initialises empty git repo
         
